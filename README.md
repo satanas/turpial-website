@@ -1,6 +1,15 @@
-# DentistSmile - Jekyll Theme
+# Turpial Website - http://turpial.org.ve #
 
-A single page Jekyll theme for dental clinics. It's easily customizable and responsive. It comes with svg icons, google map and a working contact form. Docs can be found [here](http://obaez.com/dentistsmile-docs/).
+This is a Jekyll site running on gitub-pages to the Turpial Project (a twitter opensource client).
 
-Here is a [live Demo](http://obaez.com/dentistsmile/)
+The theme it's based on [Obaez Dentistsmile Jekkyl theme](https://github.com/obaez/dentistsmile).
 
+## Install ##
+
+1. Clone the repo
+2. Run the command (inside from the files folder): npm install 
+3. Run the command: grunt watch
+4. On another terminal run the command: jekyll serve
+5. On your browser go to: http://localhost:4000
+
+If you need extra documentation about this theme, please go to [here](http://obaez.com/dentistsmile-docs/).
