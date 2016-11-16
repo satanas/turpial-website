@@ -52,7 +52,7 @@ layout: default
     <h2 class="section-title">Latest News</h2>
 
     {% for post in site.posts limit:4 %}
-        <a href="{{ post.url }}" class="news-item expandable-box">
+        <a href="{{ site.baseurl }}{{ post.url }}" class="news-item expandable-box">
             <div class="expandable-box-top">
                 <img class="img-responsive" src="{{ site.baseurl }}/img/posts/{{ post.image.featured }}" alt="{{ post.title }} Featured Image">
             </div>
