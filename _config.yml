@@ -1,15 +1,15 @@
 # Site settings
-title: DentistSmile | Dental Jekyll Theme
-description: "A responsive Jekyll theme for dental clinics."
+title: Turpial
+description: "Turpial is a lightweight and beautiful microblogging client written in Python."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the name of your domain
-logo_url: svg/min/logo.svg
+url: "http://turpial.org.ve" # the name of your domain
+logo_url: /img/logo.png
 
 # Hero
 hero: 
-    hero_img: hero.jpg
-    hero_title: DentistSmile
-    hero_description: A responsive Jekyll theme for dental clinics.
+    hero_img: landscape-background.png
+    hero_title: Turpial
+    hero_description: Turpial is a lightweight and beautiful microblogging client written in Python.
 
 # Contact form
 api_token: # Enter API token here
@@ -30,22 +30,13 @@ sunday: 10:00 – 15:00
 testimonials:
     testimonials_img: parallax.jpg
 
-# Map
-map:
-    zoom: 17
-    address: Von schroeders 273, Viña del mar, Chile
-    address_details: svg/min/logo.svg
-
 # Social settings
-facebook: http://facebook.com
 twitter: http://twitter.com
-instagram: http://instagram.com
 youtube: http://youtube.com
-skype: skype:obaez_design?userinfo
 feed: yes
 
 # Footer
-copyright: © 2015 DentistSmile - All rights reserved
+copyright: © 2016 Turpial 
 
 # Build settings
 markdown: kramdown

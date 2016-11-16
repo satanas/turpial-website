@@ -6,7 +6,9 @@
     > img {
         display: inline-block;
         max-width: 220px;
-        max-height: 50px;
+        max-height: 65px;
+        position: relative;
+        top: 3px;
         @include breakpoint(lsmall) {
             max-width: none;
         }
@@ -14,6 +16,7 @@
 }
 
 .navbar {
+    background: url(/img/page-head-background.png) repeat-x top center;
     margin-bottom: 0;
     border: none;
 }

@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<div class="container page single-post">
+    <div class="row">
+        <div class="col-sm-8">
+            <article>
+                <div class="post-header">
+                    <h1 class="section-title post-title">{{ page.title }}</h1>
+                    <p>
+                        By {% if page.author %}{{page.author}}{% else %}{{site.author}}{% endif%}
+                    </p>
+                    <p>
+                        <svg class="icon icon-calendar"><use xlink:href="#icon-calendar"></use></svg>
+                        <time datetime="{{page.date|date:"%F"}}">{{page.date|date:"%b %d, %Y"}}</time>
+                    </p>   
+                    <div class="post-featured">
+                        <img alt="{{page.title}} Fedtured Image" class="img-responsive center-block" src="/img/posts/{{ page.image.featured_big }}"/>
+                    </div>
+                </div>
+                <p>&nbsp;</p>
+                <div class="entry">{{ content }}</div>
+                <p>&nbsp;</p>
+                <p>
+                    <svg class="icon icon-tag"><use xlink:href="#icon-tag"></use></svg> <strong>Categories: </strong><span class="category">
+                    {% for category in page.categories %}
+                        <a href="/blog/category/#{{ category  }}">{{ category | capitalize }}</a>&nbsp; 
+                    {% endfor %}
+                </p>
+                <p>&nbsp;</p>
+            </article>                       
+        </div>
+        <div class="col-sm-4">
+            <div class="sidebar">
+                
+            </div>
+        </div>
+    </div>
+</div>

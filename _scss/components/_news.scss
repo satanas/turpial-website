@@ -1,11 +1,11 @@
 /* GALLERY
 -------------------------------------------------*/
-.gallery {
+.news {
     @extend %clearfix;
     @extend %space;
 }
 
-.gallery-item {
+.news-item {
     position: relative;
     float: left;
     @include breakpoint(lsmall) {

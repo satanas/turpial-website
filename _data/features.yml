@@ -1,0 +1,35 @@
+- icon: icon-leaf
+  title: Simple
+  description: With a beauty and minimalistic user interface
+
+- icon: icon-magic
+  title: Helpful
+  description: Posting tweets from the queue while your "work"
+
+- icon: icon-globe
+  title: Linguist
+  description: Speaking more than 10 languagues
+
+- icon: icon-group
+  title: Versatile
+  description: Supporting multiple accounts and multiple columns
+
+- icon: icon-desktop
+  title: Integrated
+  description: To your desktop environment
+
+- icon: icon-image
+  title: Visual
+  description: With image preview for lots of services
+
+- icon: icon-filter
+  title: Selective
+  description: With filters to control your timeline content
+  
+- icon: icon-bolt
+  title: Agile
+  description: Light and fast, with a low resources consumption
+  
+- icon: icon-tree
+  title: Eco-friendly
+  description: It doesn't harm the ozone layer
