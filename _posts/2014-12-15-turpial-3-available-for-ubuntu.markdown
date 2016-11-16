@@ -9,7 +9,7 @@ tags:
 author: Satanas
 published: true
 image:
-    featured: ubuntu-cd.jpg
+    featured: ubuntu-cd-380.jpg
     featured_big: ubuntu-cd.jpg
     source: Ubuntu
 ---
