@@ -20,7 +20,7 @@ google: https://www.google.com/+TurpialOrgVe
 feed: no
 
 # Footer
-copyright: © 2016 Turpial 
+copyright: Check the source code to this website on <a target="_blank" href="https://github.com/Richzendy/Turpial-Website">Github</a> 
 
 # Build settings
 markdown: kramdown
