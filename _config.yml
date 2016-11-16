@@ -3,7 +3,7 @@ title: Turpial
 description: "Turpial is a lightweight and beautiful microblogging client written in Python."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://turpial.org.ve" # the name of your domain
-logo_url: img/logo.png
+logo_url: ../img/logo.png
 
 # Hero
 hero: 
