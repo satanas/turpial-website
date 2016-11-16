@@ -1,6 +1,7 @@
 /* FOOTER
 -------------------------------------------------*/
 .main-footer {
+    margin-top: 80px;
     @extend %space;
     color: $white;
     background: lighten($colorPrimary, 2%);

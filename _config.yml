@@ -15,9 +15,9 @@ hero:
     hero_description: Turpial is a lightweight and beautiful microblogging client written in Python.
 
 # Social settings
-twitter: http://twitter.com
-youtube: http://youtube.com
-feed: yes
+twitter: http://twitter.com/turpialve
+google: https://www.google.com/+TurpialOrgVe
+feed: no
 
 # Footer
 copyright: © 2016 Turpial 
