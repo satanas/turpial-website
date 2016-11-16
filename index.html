@@ -54,7 +54,7 @@ layout: default
     {% for post in site.posts limit:4 %}
         <a href="{{ site.baseurl }}{{ post.url }}" class="news-item expandable-box">
             <div class="expandable-box-top">
-                <img class="img-responsive" src="{{ site.baseurl }}/img/posts/{{ post.image.featured }}" alt="{{ post.title }} Featured Image">
+                <img class="img-responsive" src="img/posts/{{ post.image.featured }}" alt="{{ post.title }} Featured Image">
             </div>
             <div class="expandable-box-bottom">
                 <span><svg class="icon icon-chain"><use xlink:href="#icon-chain"></use></svg></span>
