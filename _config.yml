@@ -11,25 +11,6 @@ hero:
     hero_title: Turpial
     hero_description: Turpial is a lightweight and beautiful microblogging client written in Python.
 
-# Contact form
-api_token: # Enter API token here
-
-# Contact info
-contact:
-    phone: 932 50 540
-    emergency: 931 53 234
-    email: contact@yoursite.com
-    address: Von schroeders 273, <br> Viña del mar - Chile
-
-# Opening hours
-monday_friday: 9:00 – 18:00
-saturday: 10:00 – 17:00
-sunday: 10:00 – 15:00
-
-# Testimonials
-testimonials:
-    testimonials_img: parallax.jpg
-
 # Social settings
 twitter: http://twitter.com
 youtube: http://youtube.com
@@ -54,3 +35,8 @@ exclude: [
 # Theme Settings
 analytics: 
 google_verification:
+
+# Blog
+paginate: 5
+paginate_path: "/news/page/:num/"
+permalink:    "/news/:year/:month/:title/"
