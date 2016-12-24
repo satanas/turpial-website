@@ -24,7 +24,7 @@ layout: default
                 <p>
                     <svg class="icon icon-tag"><use xlink:href="#icon-tag"></use></svg> <strong>Categories: </strong><span class="category">
                     {% for category in page.categories %}
-                        <a href="/blog/category/#{{ category  }}">{{ category | capitalize }}</a>&nbsp; 
+                        <a href="{{ site.baseurl }}/news/category/#{{ category  }}">{{ category | capitalize }}</a>&nbsp; 
                     {% endfor %}
                 </p>
                 <p>&nbsp;</p>
@@ -32,7 +32,7 @@ layout: default
         </div>
         <div class="col-sm-4">
             <div class="sidebar">
-                
+                <a class="twitter-timeline" data-height="600" href="https://twitter.com/TurpialVe">Tweets by TurpialVe</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
         </div>
     </div>
