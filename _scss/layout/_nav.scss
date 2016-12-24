@@ -19,6 +19,9 @@
     background: url(../img/page-head-background.png) repeat-x top center;
     margin-bottom: 0;
     border: none;
+    li {
+        background-color: $sky;
+    }
 }
 
 .navbar-default .navbar-nav>li>a,
