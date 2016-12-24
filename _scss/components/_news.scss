@@ -38,16 +38,22 @@
     }
 }
 
-.news-item {
+.new {
     position: relative;
-    float: left;
-    @include breakpoint(lsmall) {
-        width: 50%;
-    }
-    @include breakpoint(small) {
-        width: 25%;
-    }
-    .icon {
-        font-size: 2rem;
+    background-size: contain;
+    min-height: 320px;
+    .title {
+        position: absolute;
+        bottom: 0;
+        color: $white;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 100%;
+        background-color: rgba(0,0,0,0.5);
+        font-weight: 900;
+        min-height: 60px;
+        line-height: 1;
+        font-size: 22px;
     }
 }
