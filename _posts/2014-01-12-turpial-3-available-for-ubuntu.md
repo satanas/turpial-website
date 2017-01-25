@@ -1,6 +1,6 @@
 ---
 layout: post
-title: libturpial 1.7.0 is now stable
+title: Turpial 3 available for Ubuntu
 category:
     - Releases
 tags:
@@ -9,8 +9,8 @@ tags:
 author: Satanas
 published: true
 image:
-    featured: ubuntu-cd-380.jpg
-    featured_big: ubuntu-cd.jpg
+    thumb: ubuntu-cd-380.jpg
+    feature: ubuntu-cd.jpg
     source: Ubuntu
 ---
 86 weeks have passed since the last update of Turpial’s PPA but we are glad to announce that Turpial is back to Ubuntu.

@@ -1,7 +1,7 @@
 # Site settings
 title: Turpial
 description: "Turpial is a lightweight and beautiful microblogging client written in Python."
-baseurl: "/Turpial-Website" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://turpial.org.ve" # the name of your domain
 logo_url: /img/logo.png
 
@@ -43,3 +43,4 @@ google_verification:
 paginate: 5
 paginate_path: "/news/page/:num/"
 permalink:    "/news/:year/:month/:title/"
+no_featured_image: default-380.jpg

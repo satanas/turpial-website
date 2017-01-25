@@ -9,8 +9,8 @@ tags:
 author: Satanas
 published: true
 image:
-    featured: lab-tests-380.jpg
-    featured_big: lab-tests.jpg
+    thumb: lab-tests-380.jpg
+    feature: lab-tests.jpg
     source: Featured image by (CC) gravitywave / Flickr
 ---
 

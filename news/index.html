@@ -11,8 +11,8 @@ description: "Find out what’s happening in the automotive industry."
             {% for post in paginator.posts %}
             <div class="col-sm-5">
                 <a href="{{site.baseurl}}{{ post.url }}">
-                    {% if post.image.featured %}
-                    <img class="img-responsive center-block" alt="{{ post.title }}" src="{{ site.baseurl }}/img/posts/{{ post.image.featured }}"/>
+                    {% if post.image.thumb %}
+                    <img class="img-responsive center-block" alt="{{ post.title }}" src="{{ site.baseurl }}/img/posts/{{ post.image.thumb }}"/>
                     {% else %}
                     <img class="img-responsive center-block" alt="{{ post.title }}" src="{{ site.baseurl }}/img/posts/{{ site.no_featured_image }}"/>
                     {% endif %}

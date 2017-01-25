@@ -9,8 +9,8 @@ tags:
 author: Satanas
 published: true
 image:
-    featured: building-blocks-380.png
-    featured_big: building-blocks.png
+    thumb: building-blocks-380.png
+    feature: building-blocks.png
     source: Featured image by (CC) antpaniagua / Flickr
 ---
 

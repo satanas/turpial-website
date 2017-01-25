@@ -54,9 +54,15 @@ layout: default
     {% for post in site.posts limit:4 %}
         <a title="{{ post.title }}" href="{{ site.baseurl }}{{ post.url }}">
             <div class="col-md-3 col-sm-6 col-xs-12 no-padding">
-                <div class="new" style="background: url(img/posts/{{ post.image.featured_big }}) no-repeat;">
+                {% if post.image.feature %}
+                <div class="new" style="background: url(img/posts/{{ post.image.feature }}) no-repeat;">
                     <div class="title">{{ post.title }}</div>
                 </div>
+                {% else %}
+                <div class="new" style="background: url(img/posts/{{ site.no_featured_image }}) no-repeat;">
+                    <div class="title">{{ post.title }}</div>
+                </div>                
+                {% endif %}
             </div>
         </a>
     {% endfor %}

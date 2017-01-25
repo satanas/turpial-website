@@ -1,0 +1,18 @@
+---
+layout: post
+title: Optimizada la API de Turpial
+published: true
+author: satanas
+comments: true
+date: 2010-06-05 03:06:59
+tags: [ ]
+categories:
+    - uncategorized
+permalink: /2010/06/optimizada-la-api-de-turpial
+---
+[][1] Turpial ha tenido un gran crecimiento como cliente Twitter y ese crecimiento representó, en un punto del desarrollo, una expansión desproporcionada de uno de sus componentes principales, el corazón de la aplicación... La famosa API.  Para todos aquellos que no están muy relacionados con la programación, la API es un componente de la aplicación que permite la interacción entre varios módulos. En el caso de Turpial la API maneja las peticiones al servidor de Twitter. Esta expansión desproporcionada hacía muy difícil el mantenimiento del componente y ni hablar de la incorporación de nuevas funcionalidades; el solo hecho de pensar en implementar el soporte para Listas o el tan esperado soporte para Identi.ca me producían 
+
+pensamientos suicidas fuertes dolores de cabeza. Fueron muchos días de trabajo duro, diseñando y evaluando las distintas formas y opciones de reimplementar el componente de una manera óptima. Se quería lograr algo simple, estable y modular; algo que corrigiera los errores y que permitiera la adición de nuevas funciones de forma rápida y sin complicaciones. Después de mucho pensar, desechar y evaluar se logró concretar una idea, una nueva estructura que "aparentemente" cumplía con todos los requisitos. Sin embargo, no conoceríamos si realmente funcionaba hasta el momento de ponerlo a prueba. Para darle un poco de sazón al asunto, Turpial empezó a presentar un comportamiento inestable. Cuelgues frecuentes y actualizaciones "eternas" eran el pan de cada día de los usuarios. Una situación realmente incómoda para los que estaban acostumbrados a la estabilidad del cliente. Y en ese momento apenas teníamos "la idea". Se realizó un esfuerzo extra dejando de dormir, de comer e incluso de bañarnos para hacer realidad lo que estaba en papel. Afortunadamente todo salió como estaba planificado y entonces fue cuando nació la **nueva API para Turpial**. Hasta el día de ayer estuvo en fase experimental (ni siquiera disponible para los probadores), pero ya se encuentra en el repositorio de desarrollo y está siendo evaluada por las personas que colaboran en esa tarea. Los resultados hasta ahora: ¡Excelentes! Esperamos poder sacar una versión de prueba muy pronto. Una nota curiosa es que, al día de hoy, los cuelgues ya no aparecen tan frecuentemente y Turpial parece haber recuperado parte de su estabilidad (a excepción de los bugs conocidos). Esa repentina recuperación de Turpial, el hecho de que otros clientes como Gwibber y Pino presentaron comportamientos similares (aunque con menos intensidad) y el hecho de que la gente de Twitter está haciendo cambios en el servicio, nos hacen pensar que hubo una serie de situaciones que coincidieron y actuaron como agravantes. Lo importante es que ahora Turpial tiene nuevo corazón y con eso pretendemos afrontar los nuevos retos y comenzar a agregar las funcionalidades que los usuarios tanto desean. Los conocedores de la materia pueden revisar el [hilo de conversaciones][2] que se generó en la lista de correos de Turpial en torno a ésta optimización. Allí se continuará documentando en lo posible todo lo relacionado con el proceso. Gracias a todos los que han apoyado Turpial y pendientes que pronto vienen cosas buenas :)
+
+ [1]: http://turpial.org.ve/wp-content/uploads/2010/06/api.png
+ [2]: http://groups.google.com/group/turpial-dev/browse_thread/thread/511787286b0df920
