@@ -7,9 +7,8 @@ The theme it's based on [Obaez Dentistsmile Jekkyl theme](https://github.com/oba
 ## Install ##
 
 1. Clone the repo
-2. Run the command (inside from the files folder): npm install 
-3. Run the command: grunt watch
-4. On another terminal run the command: jekyll serve
-5. On your browser go to: http://localhost:4000
+2. Run `bundle install`
+3. Run `bundle exec jekyll serve`
+4. On your browser go to: http://localhost:4000
 
 If you need extra documentation about this theme, please go to [here](http://obaez.com/dentistsmile-docs/).
