@@ -13,6 +13,7 @@ permalink: /2013/12/unofficial-debian-package-turpial-3-beta-2
 image:
   thumb: debian-gnu-linux-300x145.jpg
   feature: debian-gnu-linux-300x145.jpg
+disqus_identifier: '1380 http://turpial.org.ve/?p=1380'
 ---
 
  

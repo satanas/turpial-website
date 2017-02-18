@@ -12,6 +12,7 @@ permalink: /2013/11/happy-birthday-turpial
 image:
   thumb: turpial-bday.png
   feature: turpial-bday.png
+disqus_identifier: '1350 http://turpial.org.ve/?p=1350'
 ---
 
 

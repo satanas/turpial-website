@@ -14,6 +14,7 @@ permalink: /2013/12/new-stable-release-turpial-3-0
 image:
   thumb: turpial-about-3.0.png
   feature: turpial-about-3.0.png
+disqus_identifier: '1384 http://turpial.org.ve/?p=1384'
 ---
 
 

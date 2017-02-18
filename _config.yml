@@ -42,5 +42,5 @@ google_verification:
 # Blog
 paginate: 5
 paginate_path: "/news/page/:num/"
-permalink:    "/news/:year/:month/:title/"
+permalink:    "/:year/:month/:title/"
 no_featured_image: default-380.jpg

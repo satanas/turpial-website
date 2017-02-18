@@ -13,6 +13,7 @@ permalink: /2013/12/second-beta-release-for-turpial-3
 image:
   thumb: turpial3-beta2.png
   feature: turpial3-beta2.png
+disqus_identifier: '1370 http://turpial.org.ve/?p=1370'
 ---
 
 
