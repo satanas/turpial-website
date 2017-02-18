@@ -10,6 +10,7 @@ categories:
     - noticias
     - oficial
 permalink: /2013/11/call-for-translators-for-turpial-3
+disqus_identifier: '1317 http://turpial.org.ve/?p=1317'
 ---
 
 

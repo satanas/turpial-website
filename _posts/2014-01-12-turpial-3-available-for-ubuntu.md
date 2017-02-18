@@ -12,6 +12,7 @@ image:
     thumb: ubuntu-cd-380.jpg
     feature: ubuntu-cd.jpg
     source: Ubuntu
+disqus_identifier: '1414 http://turpial.org.ve/?p=1414'
 ---
 86 weeks have passed since the last update of Turpial’s PPA but we are glad to announce that Turpial is back to Ubuntu.
 

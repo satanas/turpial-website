@@ -12,6 +12,7 @@ categories:
     - oficial
     - packages
 permalink: /2013/07/first-beta-release-for-libturpial-1-0
+disqus_identifier: '1304 http://turpial.org.ve/?p=1304'
 ---
 The past week I announced the [frozen of libturpial][1], and today I proudly announce the first beta release for libturpial 1.0. After a week of tests, only was detected a minor issue fetching accounts that was fixed immediately. Everything else was working as expected. Among the changes we did are: 
 

@@ -14,6 +14,7 @@ permalink: /2013/11/first-beta-release-for-turpial-3
 image: 
   thumb: turpial-beta2-300x300.png
   feature: turpial-beta2-300x300.png
+disqus_identifier: '1333 http://turpial.org.ve/?p=1333'
 ---
 
 

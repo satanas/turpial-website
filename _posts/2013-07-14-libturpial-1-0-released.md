@@ -11,6 +11,7 @@ categories:
     - oficial
     - release
 permalink: /2013/07/libturpial-1-0-released
+disqus_identifier: '1309 http://turpial.org.ve/?p=1309'
 ---
 [][1] After months of heavy development I'm glad to finally announce the official release libturpial 1.0. libturpial is the backend of the next Turpial version, it handles multiple microblogging protocols (Twitter and Identi.ca at the moment) and has support for multiple accounts and multiple columns. It is a great tool to develop automated Python scripts that need to handle the Twitter API or even to develop a microblogging client on top of it. Most important features of the final release include: 
 

@@ -13,6 +13,7 @@ permalink: /2013/12/unofficiaturpial-debian-package-for-turpial-3-0-b1
 image: 
   thumb: debian-gnu-linux-300x145.jpg
   feature: debian-gnu-linux-300x145.jpg
+disqus_identifier: '1362 http://turpial.org.ve/?p=1362'
 ---
 
  
